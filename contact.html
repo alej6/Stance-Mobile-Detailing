@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  type="text/css" href="stylesheets/stance.css">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <title> Stance Mobile Detailing</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    
+    <header> 
+        <h1 id="fancy"> Stance Mobile Detailing</h1>
+    </header>
+    <div class="sidebar">
+<nav>
+    <a href = "index.html">Home</a>
+    <a href ="services.html">Services</a>
+    <a href ="gallery.html ">Gallery</a>
+    <a href ="about.html"> About</a>
+    <a  href= "contact.html">Contact</a>
+    <a href="faq.html">FAQ</a>
+    
+
+</nav>
+
+<main> 
+  <h2 class="blackFont brandName"> Get an Instant Quote! </h2>
+                <!--Contact Form  -->
+    <form action="https://webdevbasics.net/scripts/demo.php">
+        <label for= "name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label  for="email">Email</label>
+        <input type= "email" id="email"  name= "email" required>
+
+        <label for= "phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" 
+        pattern= "[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+        <label for = "package"> Detail Package:</label>
+         <select id="package" name="package">
+             <option value="Interior">Interior</option>
+             <option value="Exterior">Exterior</option>
+             <option value="Interior/Exterior">Interior/Exterior</option>
+             <option value="Other">Other</option>
+             </select>
+
+             <label for= "Details"> Tell us exactly what you need!</label>
+             <textarea id="Details" name="Details"></textarea>
+        
+        <label for="send"> Send now!</label>
+        <input type="submit" id="send" name="send">
+
+    </form>
+</main>
+</div>
+<footer>
+    Copyright &copy; Stance Mobile Detailing<br>
+    <b> Hours of Operation:<br>
+        Monday-Sunday: 7am-7pm</b>
+</footer>
+    
+    
+</body>
+
+
+</html>
